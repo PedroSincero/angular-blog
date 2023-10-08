@@ -12,4 +12,6 @@ export class SmallCardComponent {
   @Input()
   titleCard: string =
     'Lorem ipsum dolor sit amet consectetur adipisicing elit.';
+  @Input()
+  Id: string = '0'
 }
